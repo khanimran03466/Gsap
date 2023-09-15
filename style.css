@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 3rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+
+}
+
+
+.content{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left{
+    background-color: red;
+    width: 10vw;
+}
+
+.right{
+    background-color: yellowgreen;
+    width: 10vw;
+}
+
+button{
+    align-self: center;
+    font-size: 2.3rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer{
+    height: 15vh;
+    width: 100%;
+    background-color: blueviolet;
+}
